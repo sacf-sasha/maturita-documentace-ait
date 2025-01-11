@@ -10,12 +10,12 @@ interface GameListProps {
 
 export const GameList: React.FC<GameListProps> = ({ games }) => {
   const { addToCart } = useCart();
-  const [clickedButtons, setClickedButtons] = useState<{ [key: number]: boolean }>({});
+  const [clickedButtons, setClickedButtons] = useState<{ [key: string]: boolean }>({});
 
   const handleAddToCart = (game: Game) => {
     setClickedButtons(prev => ({ ...prev, [game.id]: true }));
     addToCart({
-      id: game.id,
+      id: parseInt(game.id),
       title: game.title,
       price: game.price,
       image: game.image

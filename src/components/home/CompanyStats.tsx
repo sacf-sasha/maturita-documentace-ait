@@ -2,10 +2,10 @@ import React from 'react';
 
 export const CompanyStats = () => {
   const stats = [
-    { value: '50+', label: 'Games Released' },
-    { value: '10M+', label: 'Active Players' },
-    { value: '15+', label: 'Years Experience' },
-    { value: '100+', label: 'Team Members' },
+    { value: '1+', label: 'Games Released' },
+    { value: '1+', label: 'Active Players' },
+    { value: '1+', label: 'Years Experience' },
+    { value: '1+', label: 'Team Members' },
   ];
 
   return (

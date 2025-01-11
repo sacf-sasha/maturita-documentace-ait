@@ -53,7 +53,7 @@ const About = () => {
 
           <h2 className="text-2xl font-bold text-white mb-4">Our Story</h2>
           <p className="mb-4">
-            Founded in 2009, SACF Games has grown from a small indie studio to a
+            Founded in 2024, SACF Games has grown from a small indie studio to a
             major player in the gaming industry. Our journey began with a simple
             mission: to create games that we ourselves would love to play.
           </p>

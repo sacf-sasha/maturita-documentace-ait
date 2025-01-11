@@ -21,8 +21,8 @@ const Footer = () => {
             links={[
               { label: 'About Us', href: '/about' },
               { label: 'Games', href: '/games' },
-              { label: 'News', href: '/news' },
-              { label: 'Careers', href: '/careers' }
+              { label: 'News', href: '/' },
+              { label: 'Careers', href: '/' }
             ]} 
           />
           
@@ -30,9 +30,9 @@ const Footer = () => {
             title="Support" 
             links={[
               { label: 'Contact', href: '/contact' },
-              { label: 'FAQ', href: '/faq' },
-              { label: 'Privacy Policy', href: '/privacy' },
-              { label: 'Terms of Service', href: '/terms' }
+              { label: 'FAQ', href: '/' },
+              { label: 'Privacy Policy', href: '/' },
+              { label: 'Terms of Service', href: '/' }
             ]} 
           />
           
