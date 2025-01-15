@@ -17,7 +17,7 @@ const SignupPage = () => {
     setSuccess('');
 
     if (password !== confirmPassword) {
-      setError('Пароли не совпадают');
+      setError('Passwords do not match');
       return;
     }
 
@@ -26,7 +26,7 @@ const SignupPage = () => {
         email,
         password,
         options: {
-          emailRedirectTo: window.location.origin,
+          emailRedirectTo: 'http://localhost:5173/',
         }
       });
 
