@@ -1,60 +1,60 @@
 # SACF Gaming Website - Aliksandr Zaharouski
 
-## О проекте
-SACF Gaming Website - это современный веб-сайт для геймеров, разработанный с использованием передовых технологий веб-разработки. Проект создан как часть выпускной работы для AIT.
+## O projektu
+SACF Gaming Website je moderní webová stránka pro hráče, vyvinutá pomocí pokročilých webových technologií. Projekt byl vytvořen jako součást maturitní práce pro AIT.
 
-## Установка и запуск проекта
+## Instalace a spuštění projektu
 
-### Предварительные требования
-Перед началом установки убедитесь, что на вашем компьютере установлено следующее программное обеспечение:
-- Node.js (версия 18 или выше) - [скачать с официального сайта](https://nodejs.org/)
-- Git - [скачать с официального сайта](https://git-scm.com/downloads)
+### Požadavky
+Před instalací se ujistěte, že máte na svém počítači nainstalovaný následující software:
+- Node.js (verze 18 nebo vyšší) - [stáhnout z oficiálních stránek](https://nodejs.org/)
+- Git - [stáhnout z oficiálních stránek](https://git-scm.com/downloads)
 
-### Пошаговая инструкция по установке
+### Podrobný návod k instalaci
 
-1. Откройте терминал (командную строку) на вашем компьютере
+1. Otevřete terminál (příkazový řádek) na vašem počítači
 
-2. Клонируйте репозиторий:
+2. Naklonujte repozitář:
 ```bash
 git clone https://github.com/sacf-sasha/React-maturita-ait.git
 ```
 
-3. Перейдите в директорию проекта:
+3. Přejděte do adresáře projektu:
 ```bash
 cd React-maturita-ait/project
 ```
 
-4. Установите все необходимые зависимости:
+4. Nainstalujte všechny potřebné závislosti:
 ```bash
 npm install
 ```
 
-5. Запустите проект в режиме разработки:
+5. Spusťte projekt v vývojovém režimu:
 ```bash
 npm run dev
 ```
 
-6. Откройте браузер и перейдите по адресу:
+6. Otevřete prohlížeč a přejděte na adresu:
 ```
 http://localhost:5173
 ```
 
-### Структура проекта
+### Struktura projektu
 ```
 project/
-├── src/               # Исходный код
-│   ├── components/    # React компоненты
-│   ├── pages/         # Страницы приложения
-│   ├── lib/          # Библиотеки и утилиты
-│   └── assets/       # Изображения и другие ресурсы
-├── public/           # Статические файлы
+├── src/               # Zdrojový kód
+│   ├── components/    # React komponenty
+│   ├── pages/         # Stránky aplikace
+│   ├── lib/          # Knihovny a utility
+│   └── assets/       # Obrázky a další zdroje
+├── public/           # Statické soubory
 └── ...
 ```
 
-### Использованные технологии
-- React 18.2.0 - библиотека для создания пользовательского интерфейса
-- TypeScript - типизированный JavaScript
-- Vite - современный инструмент сборки
-- Supabase - база данных и аутентификация
-- Three.js - библиотека для 3D графики
-- Tailwind CSS - утилитарный CSS фреймворк
+### Použité technologie
+- React 18.2.0 - knihovna pro tvorbu uživatelského rozhraní
+- TypeScript - typovaný JavaScript
+- Vite - moderní build nástroj
+- Supabase - databáze a autentizace
+- Three.js - knihovna pro 3D grafiku
+- Tailwind CSS - utilární CSS framework
