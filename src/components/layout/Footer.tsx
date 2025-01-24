@@ -21,8 +21,6 @@ const Footer = () => {
             links={[
               { label: 'About Us', href: '/about' },
               { label: 'Games', href: '/games' },
-              { label: 'News', href: '/' },
-              { label: 'Careers', href: '/' }
             ]} 
           />
           
@@ -30,16 +28,13 @@ const Footer = () => {
             title="Support" 
             links={[
               { label: 'Contact', href: '/contact' },
-              { label: 'FAQ', href: '/' },
-              { label: 'Privacy Policy', href: '/' },
-              { label: 'Terms of Service', href: '/' }
             ]} 
           />
           
-          <div>
+          {/* <div>
             <h3 className="text-white font-semibold mb-4">Follow Us</h3>
             <SocialLinks />
-          </div>
+          </div> */}
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-sm text-center">
